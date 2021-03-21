@@ -1,0 +1,27 @@
+extends layouts/login-layout.pug
+
+block content
+    .loginContainer
+       
+        img(src="https://i.ibb.co/KVChyhh/logonew.png", alt="Hyperlynk Logo" width="290" style="margin-bottom: 10px; margin-top: 5px;")
+     
+
+     
+
+
+
+
+        
+  
+        form(method="post")
+
+            p.errorMessage #{errorMessage}
+
+            //- input(type="text", name="logUsername", placeholder="Username or email", value=logUsername required="")
+            //- input(type="password", name="logPassword", placeholder="Password", required="")
+
+            input(type="text", name="logUsername", placeholder="Username or email", value="" required="")
+            input(type="password", name="logPassword", placeholder="Password", value="" required="")
+
+            input(type="submit", value="Login")
+        a(href="/register") Need an account? Register here.

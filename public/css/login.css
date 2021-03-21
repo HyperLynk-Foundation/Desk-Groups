@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+    background-image: url(https://lh3.googleusercontent.com/SdwKyaIiNl5ihXWyVXn7_CdTI0QOlcG5ODmOBfDE8RYiLD12w1XME9LELQEGQkFf1oLJYJ-7h8rqBGSAXP68q4-mtuB9OTKT3vj-rA=w0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loginContainer {
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(230, 236, 240);
+    color: rgb(101, 119, 134);
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 8px;
+}
+
+
+input[type="submit"] {
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
